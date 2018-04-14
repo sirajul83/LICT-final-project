@@ -1,0 +1,742 @@
+/*=====================navbar====================*/
+#nav_top{
+	min-height:50px;
+	background-color:rgba(239,239,239,1.00);
+	}
+.logo img{
+	width:130px;
+	height:40px;
+	margin-top:5px;
+	}
+.search_area .form-control{
+	width:200px;
+	border-radius:0%;
+	box-shadow:none;
+	transition:all 0.3s ease-out;
+	}
+.search_area .form-control:focus{
+	width:280px;
+	transition:all 0.3s ease-out;
+	background-color:rgba(231,229,189,1.00);
+	border-bottom:1px solid rgba(91,89,89,1.00);
+	box-shadow:none;
+	border:none;
+}
+
+#nav_top .btn-default {
+    color: #333;
+    background-color: rgba(255,255,255,1.00);
+    border-color: #ccc;
+	border:none;
+	border-radius:0%;
+}
+#nav_top .btn-default:hover{
+	background-color:rgba(65,65,65,1.00);
+	color:#fff;
+	
+	}
+#nav_top .navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: green;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.login_area  {
+	margin-top:5px;
+	background-color:#ECE0B4;
+	width:200px;
+	height:40px;
+	margin-left:100px; 
+	
+	}
+.login_area ul li:nth-child(1){
+	color:#ccc !important;
+	background-color:rgba(77,177,151,1.00);
+	}
+.login_area ul li:nth-child(2){
+	background-color:rgba(225,225,225,1.00);
+	}
+.login_area ul li:nth-child(3){
+	font-size:18px;
+	color:#222;
+	}
+.login_area ul li i:nth-child(1){
+	color:#F79212 !important;
+	}
+.login_area ul {
+	margin:0px;
+	padding:0px;
+	}
+.login_area ul li{
+	float:left;
+	list-style:none;
+	}
+.login_area li a{
+	width:65px;
+	height:40px;
+	color:#222;
+	text-align:center;
+	text-decoration:none;
+	line-height:35px;
+	text-align:center;
+	display:block;
+	}
+.menu {
+  
+    height:50px;
+
+    width:100%;
+	z-index:1;
+}
+.sticky {
+    position:fixed;
+    top:0;
+}
+
+.navbar{
+	background:#5092AD;
+	border-radius:0%;
+	min-height:50px;
+	border:none;
+}
+.menubar {
+	float:left;
+	}
+.menubar li a{
+	color:#FFFFFF !important;
+	font-size:18px !important;
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	text-transform:uppercase !important;
+	position:relative;
+}
+.menubar li a:focus{
+	background-color:transparent;
+	}
+.nav>li>a:hover{
+	background-color:rgba(63,125,183,0.23);
+	}
+.menubar li a::after{
+	position:absolute;
+	content:"";
+	width:0px;
+	height:3px;
+	right:0px;
+	top:35px;
+	left:0px;
+	background:rgba(28,64,107,1.00);
+	transform:scale(0);
+	-webkit-transform:scale(0);
+	transition:all ease-in-out .3s;
+	-webkit-transition:all ease-in-out .3s;
+}
+
+.menubar li a:hover::after{
+	width:100%;
+	margin-right:10px;
+	transform:scale(1);
+	background-color:#3A4B6C;
+	-webkit-transform:scale(1);
+	transition:all ease-in-out .3s;
+	-webkit-transition:all ease-in-out .3s;
+}
+
+.menubar li ul li a{
+	background-color:#222;
+}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover{
+	background:#5092AD;
+	}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    color: #262626;
+    text-decoration: none;
+    background-color: #333333;
+}
+.navbar-nav>li>.dropdown-menu {
+	background-color:#131313;
+	border-radius:0%;
+	}
+.open>a:focus{
+	background-color:rgba(0,0,0,1.00);
+	}
+.menubar .navbar-nav>li>.dropdown-menu {
+    margin-top: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+/*............................. slider............................*/
+#slider_area{
+	min-height:auto;
+	margin-top:-41px;
+	}
+.slider_caption{
+	margin-bottom:300px;
+	color:#f8f8f8;
+	}
+.slider_caption h3{
+	padding-bottom:20px;
+	color:#fefefe;
+	}
+.slider_caption a{
+	padding:15px;
+	color:#f8f8f8;
+	text-decoration:none;
+	background-color:#333333;
+	transition:all 0.3s ease-out;
+	}
+.slider_caption a:hover{
+	background-color:#56B4A4;
+	color:#fff;
+	transition:all 0.3s ease-out;
+	}
+
+
+
+/*........................content_area........................*/
+#product_area{
+	background-color:#fff;
+	}
+#product_area h2{
+	color:#222;
+	text-align:center;
+	padding-top:20px;
+	padding-bottom:20px;
+	}
+.product{
+	min-height:380px;
+	padding-top:30px;
+	border:1px solid gray;
+	text-align:center;
+	overflow:hidden;
+	position:relative;
+	}
+.product img{
+		transition:all 0.3s ease-in;
+	}
+.product img:hover{
+		transform:scale(1.8);
+		transition:all 0.3s ease-in;
+	}
+.product_details{
+	padding-top:50px;
+	padding-bottom:30px;
+	background-color:rgba(241,241,241,0.24);
+	transition:all 0.3s ease-in-out;
+	}
+.product_details del{
+	color:#C11F21;
+	font-size:12px;
+	font-weight:500;
+	}
+.product_details:hover{
+	transition:all 0.4s ease-in-out;
+	background-color:#D0C69B;
+	color:#f8f8f8;
+	}
+.product_details span{
+	color:#292929;
+	font-size:15px;
+	}
+.product a{
+	width:100px;
+	height:40px;
+	text-decoration:none;
+	color:#fefefe;
+	background-color:#272727;
+	line-height:35px;
+	display:inline-block;
+	}
+.product a:hover{
+	background-color:#FFA30C;
+	color:#fff;
+	cursor:pointer;
+	}
+.product_space{
+	height:50px;
+	}
+/*-------------introduction -- */
+#introduction{
+	background-image:url(../img/slider/auto-2934064_960_720.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	min-height:300px;
+	}
+#introduction h3{
+	color:#333333;
+	
+	}
+#introduction p{
+	color:#222;
+	}
+/*------------------------      clients_area   ---------------------*/
+.clients_area{
+	background-image:url(../img/product/eight_horns.png);
+	min-height:300px;
+	}
+.clients_area h3{
+	text-align:center;
+	color:#222;
+	padding-top:20px;
+	padding-bottom:30px;
+	}
+.clients_area img{
+	margin-left:20px;
+	padding:30px;
+	background-color:rgba(233,233,233,1.00);
+	transition:all 0.3s ease-in;
+	}
+.clients_area img:hover{
+		transition:all 0.3s ease-in;
+		transform:translate(-10px, -10px);
+		background-color:rgba(247,214,101,0.52);
+		cursor:pointer;
+	}
+/*---------------home_contact  -------------------------   */
+#home_contact{
+	min-height:250px;
+	background-color:#243238;
+	}
+#home_contact h4{
+	color:#fefefe;
+	text-align:left;
+	padding-top:30px;
+	position:relative;
+	}
+#home_contact li a{
+	color:#3D7CAA;
+	text-align:left;
+	}
+.social_footer a{
+	color:fff;
+	width:30px;
+	height:30px;
+	padding:6px 0px 0px 10px;
+	border-radius:100%;
+	display:block;
+	text-decoration:none;
+	background-color:rgba(69,185,187,1.00);
+	transition:all 0.3s ease-in;
+	}
+.social_footer a:hover{
+	background-color:rgba(244,186,18,0.99);
+	transform:translate(20px,10px);
+	transition:all 0.3s ease-in;
+	padding:10px 0px 0px 14px;
+	width:40px;
+	height:40px;
+	cursor:pointer;
+	color:#222;
+	}
+.social_footer i{
+	color:#fff;
+	}
+footer{
+	height:50px;
+	background-color:#555555;
+	}
+footer .text-left{
+	color:#fefefe;
+	padding-top:10px;
+	float:left;
+	}
+footer .text-right{
+	color:#fefefe;
+	padding-top:10px;
+	z-index:1;
+	}
+footer span{
+	color:#fff;
+	}
+
+/*--------------- This is About Area  --------------------*/
+#about_slider{
+	background-image:url(../img/img/about.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	background-position:center;
+	margin-top:-20px;
+	width:100%;
+	height:150px;
+	}
+#about_slider h2{
+	color:fefefe;
+	text-align:center;
+	padding-top:20px;
+	}
+.about-img{
+	background-image:url(../img/img/07(1).jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	height:200px;
+	}
+.Tem_table{
+	margin-top:30px;
+	}
+.Tem_table h3{
+	padding-top:30px;
+	}
+.Tem_table tr{
+	background-color:rgba(236,236,236,1.00);
+	}
+.Tem_table thead .tem_title{
+	background-color:rgba(99,99,99,1.00);
+	color:#f8f8f8;
+	}
+.tem_d h3{
+	padding-top:50px;
+	}
+
+/*==================================================
+					bmw_slider
+====================================================*/
+
+#bmw_slider{
+	background-image:url(../img/product/bmwimg/bmwal.jpeg);
+	height:400px;
+	background-size:cover;
+	margin-top:-20px;
+	background-repeat:no-repeat;
+	background-position:center;
+	width:100%;
+	}
+.slider-bmw {
+	margin-top:100px;
+	text-align:center;
+	color:#fefefe;
+	}
+.slider-bmw h2{
+	padding-bottom:20px;
+	}
+.slider-bmw p{
+	padding-bottom:20px;
+
+	}
+
+.slider-bmw a{
+	color:#EFEFEF;
+	text-decoration:none;
+	padding:15px;
+	background-color:rgba(91,188,200,1.00);
+	text-align:center;
+	transition:all 0.3s ease-in-out;
+	
+	}
+.slider-bmw a:hover{
+	background-color:rgba(120,200,169,1.00);
+	transition:all 0.3s ease-in-out;
+	cursor:pointer;
+	}
+#bmw_lastupdate{
+	padding-top:30px;
+	padding-top:40px;
+	min-height:400px;
+	}
+/*================================================
+				Suzuki cars
+====================================================*/
+#suzuki_slider{
+	height:400px;
+	background-image:url(../img/product/suzukimg/zusukislider.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	background-attachment:fixed;
+	margin-top:-20px;
+	width:100%;
+	
+	}
+/*================================================
+				Suzuki Motorcicle
+====================================================*/
+#suzukicicle_slider{
+	height:400px;
+	background-image:url(../img/product/suzukicicle/up.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	background-attachment:fixed;
+	margin-top:-20px;
+	width:100%;
+}
+/*================================================
+				contact_slider 
+====================================================*/
+#contact_slider{
+	height:300px;
+	background-image:url(../img/img/logo/contact.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	background-attachment:fixed;
+	margin-top:-20px;
+	width:100%;
+	}
+.spport{
+	padding-bottom:40px;
+	}
+.spport h3{
+	color:#222;
+	text-align:center;
+	}
+#contact_slider h3{
+	padding-bottom:30px;
+	}
+.spport i {
+	color:#fff;
+    width: 80px;
+    height: 80px;
+    font-size: 20px;
+    text-align: center;
+    padding: 30px 0px 0px 0px;
+	transition:all 10s ease-in;
+    margin-top: 30px;
+    border-radius: 100%;
+    background-color: rgba(98,197,174,1.00);
+}
+.spport i:hover{
+	transform:rotate(8000deg);
+	transition:all 10s ease-in;
+	cursor:pointer;
+	}
+.spport p{
+	text-align:center;
+	transition:all 0.3s ease-in;
+	}
+.spport p:hover{
+	transform:rotateY(360deg);
+	transition:all 1s ease-in;
+	cursor:pointer;
+	}
+	
+
+/*==================================================
+				registration
+==================================================*/
+#registration{
+	}
+.reg_login{
+	border:1px solid gray;
+	padding:20px;
+	padding-top:50px;
+	min-height:450px;
+	margin-top:30px;
+	}
+.reg_signup{
+	border:1px solid gray;
+	padding:20px;
+	}
+.reg_signup h3,
+.reg_login h3{
+	color:#fff;
+	background-color:rgba(77,197,177,1.00);
+	text-align:center;
+	padding:5px;
+	}
+.reg_signup .form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 0%;
+    -webkit-box-shadow:  0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	transition: all 0.3s ease-in-out;
+}
+.reg_signup .form-control:hover{
+	border:none;
+	background-color:#F7F7F7;
+	transition: all 0.3s ease-in-out;
+	}
+.reg_login .form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #f8f8f8;
+    background-image: none;
+    border:none;
+    border-radius: 0%;
+    -webkit-box-shadow:  0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	transition: all 0.3s ease-in-out;
+	position:relative;
+}
+
+.reg_login .btn-default {
+    color: #fff;
+    border:none;
+	border-radius:0%;
+	background-color:rgba(86,164,237,1.00);
+}
+.reg_login .btn-default:hover{
+	background-color:rgba(236,175,44,1.00);
+	}
+.reg_signup .btn-default:hover{
+	background-color:rgba(82,191,91,1.00);
+	}
+.reg_signup .btn-default {
+	margin-top:20px;
+    color: #fff;
+    border:none;
+	border-radius:0%;
+	background-color:rgba(86,164,237,1.00);
+}
+/*===================================================
+				tvscycle_slider area
+=====================================================*/
+#tvscycle_slider{
+	background-image:url(../img/product/tvsimg/2016-tvs-apache-rtr-200-4v-photos-2.png);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+	height:300px;
+	}
+
+/*================================================================
+					contact
+==================================================================*/
+#google_map{
+	width:100%;
+	height:400px;
+	}
+.iframe{
+	width:100%;
+	height:300px;
+	}
+#contact_form{
+	min-height:250px;
+	padding-top:30px;
+	}
+.contact_form1 .form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #9B9B9B;
+    border-radius: 0%;
+    transition: all 0.3s ease-in-out;
+}
+.contact_form1 .form-control:hover{
+	  background-color:rgba(243,243,243,1.00);
+	  transition: all 0.3s ease-in-out;
+	  box-shadow:none;
+	  }
+.contact_form2 textarea.form-control{
+	height:150px;
+	 border-radius: 0%;
+    -webkit-box-shadow:none;
+    transition: all 0.3s ease-in-out;
+	 border: 1px solid #9B9B9B;
+	}
+.contact_form2 textarea.form-control:hover{
+	 background-color:rgba(243,243,243,1.00);
+	  transition: all 0.3s ease-in-out;
+	  box-shadow:none;
+	}
+.contact_form2 .btn-default {
+    color: #333;
+	margin-top:20px !important;
+	 border: 1px solid #222;
+    background-color: #fff;
+	border-radius:0%;
+	transition:all 0.3s ease-in;
+}
+.contact_form2 .btn-default:hover {
+	color:#feffefe;
+	transition:all 0.3s ease-in;
+	background-color:rgba(85,195,159,1.00);
+	border:none;
+	}
+/*====================================================
+
+			Add cart
+=========================================================*/
+.spport{
+	padding-bottom:40px;
+	}
+.add_cart_progres h3{
+	color:#222;
+	text-align:center;
+	}
+.add_cart_progres h3{
+	padding-bottom:30px;
+	}
+.add_cart_progres i {
+	color:#fff;
+    width: 80px;
+    height: 80px;
+    font-size: 20px;
+    text-align: center;
+    padding: 30px 0px 0px 0px;
+	transition:all 10s ease-in;
+    margin-top: 30px;
+   
+    background-color: rgba(98,197,174,1.00);
+}
+
+.add_cart_progres i:hover{
+	transform:rotate(8000deg);
+	transition:all 10s ease-in;
+	cursor:pointer;
+	}
+.add_cart_progres p{
+	text-align:center;
+	transition:all 0.3s ease-in;
+	}
+.add_cart_progres p:hover{
+	transform:rotateY(360deg);
+	transition:all 1s ease-in;
+	cursor:pointer;
+	}
+
+.addcart-view .form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 0%;
+    -webkit-box-shadow: none;
+}
+.addcart-view .btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+	border-radius:0%;
+	transition:a all 0.3s ease-in;
+}
+.addcart-view .btn-default:hover{
+	background-color:rgba(55,187,144,1.00);
+	transition:a all 0.3s ease-in;
+	}
